@@ -1,7 +1,6 @@
 # pcie-usb-platform-tests
 
 Linux PCIe & USB platform test suite using C++ GoogleTest and Python orchestration.
-GitHub repo: https://github.com/Bhavya700/pcie-usb-platform-tests.git
 
 ## Prerequisites
 
@@ -76,4 +75,5 @@ You can override the default paths using environment variables:
 
 2. "GTest cstddef not found" during build:
    - This often happens mostly on MacOS if SDK is not set up perfectly. Ensure you have the latest Command Line Tools installed.
+
    - On Linux/Ubuntu, install `build-essential` and `cmake`. 
